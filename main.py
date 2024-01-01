@@ -157,7 +157,7 @@ while m:
             name = input("Insert your name: ")
             while len(name) == 0:
                 name = input("Insert your name: ")
-            filepath = "Wojna\\history.txt"
+            filepath = "history.txt"
             f = open(filepath, "r+")
             f.read()
             f.write(f"\n{name} - {s} moves - DEFEAT")
@@ -172,7 +172,7 @@ while m:
             name = input("Insert your name: ")
             while len(name) == 0:
                 name = input("Insert your name: ")
-            filepath = "Wojna\\history.txt"
+            filepath = "history.txt"
             f = open(filepath, "r+")
             f.read()
             f.write(f"\n{name} - {s} moves - VICTORY")
@@ -203,7 +203,7 @@ while m:
     def history():
         # Clearing screen
         os.system('cls||clear')
-        filepath = "Wojna\\history.txt"
+        filepath = "history.txt"
         f = open(filepath, "r")
         print(f.read())
 
